@@ -16,7 +16,6 @@ body {
 }
 
 #container2 {
-  /* height: 100%; */
   width: 100%;
   padding: 5% 10%;
   /* background-color: #030305; */
@@ -45,7 +44,8 @@ body {
   display: flex;
   align-items: center;
   /* background-color: red; */
-  height: 80vh;
+  height: 72vh;
+  padding-top: 5% ;
 }
 #bestseller .slideText p:nth-child(1),
 #bestseller .slideText p:nth-child(2) {
@@ -152,9 +152,7 @@ body {
   /* position: absolute; */
 }
 #container4 #deal-offer {
-  /* display: none; */
   width: 33%;
-  height: 53vh;
   background-color: #8657ea;
   color: white;
   text-align: center;
@@ -330,7 +328,7 @@ body {
   border: 2px solid white;
   border-radius: 1vw;
   width: 33vw;
-  margin-left: 10%;
+  margin: 0 10%;
 }
 #cont8-upside-input .inquiry input {
   border-start-start-radius: 1vw;
@@ -367,9 +365,9 @@ body {
   height: 100%;
   top: -15vh;
   position: absolute;
-  /* animation: copy 2s linear 1; */
-  /* transform: translateY(100px); */
-  /* opacity: 0; */
+  /* animation: copy 2s linear 1;
+  transform: translateY(100px);
+  opacity: 0; */
 }
 @keyframes copy {
   to {
