@@ -1,19 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Swiper demo</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-    />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-
-    <!-- Demo styles -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <style>
       * {
         margin: 0;
@@ -24,104 +14,76 @@
       body {
         height: 100%;
         width: 100%;
-        position: relative;
       }
-
-      body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
-      }
-
-      .swiper {
+      #container4 {
+        /* background-color: #060506; */
         width: 100%;
-        height: 60%;
-      }
-
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
+        /* height: 100%; */
         display: flex;
-        justify-content: center;
-        align-items: center;
+        position: relative;
+        /* margin: 5vh 0; */
+        /* background-color: saddlebrown; */
       }
-
-      .swiper-slide img {
-        display: block;
+      #container4 #cont4-bgimg {
+        position: absolute;
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        background-color: aqua;
+        background-size: cover;
+        background-attachment: fixed;
       }
-
+      #container4 #cont4-up {
+        /* padding: 5vh 0; */
+        position: relative;
+        width: 100%;
+        /* height: 100%; */
+        background-color: rgb(25, 18, 19);
+        display: flex;
+        justify-content: space-between;
+      }
+      #deal-offer {
+        width: 20%;
+        height: 600px;
+        background-color: rgb(17, 255, 0);
+        /* position: absolute; */
+      }
+      .deal-image1 {
+        width: 20%;
+        height: 600px;
+        background-color: rgb(255, 0, 76);
+      }
+      .deal-image2 {
+        width: 20%;
+        height: 600px;
+        background-color: rgb(119, 119, 225);
+      }
+      .deal-image3 {
+        width: 20%;
+        height: 600px;
+        background-color: rgb(166, 255, 0);
+      }
     </style>
   </head>
-
   <body>
-    <!-- Swiper -->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
+    <div id="container4">
+      <div id="cont4-bgimg"></div>
+      <div id="cont4-up">
+        <div id="deal-offer">
+          <!-- <p>THIS WEEK'S DEALS</p>
+          <h1>10%</h1>
+          <h2>off all games</h2>
+          <button>Shop Now</button> -->
+        </div>
+        <div class="deal-offer-img deal-image1">
+          <!-- <img src="./Kira.webp" alt="" /> -->
+        </div>
+        <div class="deal-offer-img deal-image2">
+          <!-- <img src="./Kira.webp" alt="" /> -->
+        </div>
+        <div class="deal-offer-img deal-image3">
+          <!-- <img src="./Kira.webp" alt="" /> -->
+        </div>
       </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
     </div>
-
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        cssMode: true,
-        loop:true,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        slidesPerView: 4,
-        spaceBetween: 40,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-          mousewheel: true,
-          keyboard: true,
-        },
-        // Responsive breakpoints
-        breakpoints: {
-          // when window width is >= 320px
-          0: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          380: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          // when window width is >= 480px
-          550: {
-            slidesPerView: 3,
-            spaceBetween: 30,
-          },
-          // when window width is >= 640px
-          750: {
-            slidesPerView: 4,
-            spaceBetween: 40,
-          },
-        },
-      });
-    </script>
   </body>
 </html>

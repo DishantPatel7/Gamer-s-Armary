@@ -1,0 +1,28 @@
+#container4 .deal-offer-img {
+        /* display: none; */
+        width: 25%;
+        height: 75vh;
+        position: absolute;
+        top: 10vh;
+        background-color: red;
+      }
+      #container4 .deal-image1 {
+        z-index: 1;
+        left: 30vw;
+      }
+      #container4 .deal-image2 {
+        z-index: 2;
+        margin-top: 12vh;
+        left: 50vw;
+      }
+      #container4 .deal-image3 {
+        z-index: 3;
+        left: 70vw;
+      }
+      #container4 .deal-offer-img img {
+        height: 100%;
+        /* width: 100%; */
+        border-radius: 2.5vw;
+        object-fit: fill;
+        box-shadow: 1px 1px 15px 5px rgb(12, 12, 12);
+      }
