@@ -280,7 +280,6 @@ body {
   display: block;
   border: 2px solid white;
   border-radius: 1vw;
-  width: 33vw;
   margin: 0 10%;
 }
 #cont6-upside-input .inquiry input {
@@ -332,7 +331,7 @@ body {
 #container8 {
   width: 100%;
   background-color: #060506;
-  padding: 4% 5% 2% 5%;
+  padding: 3% 5% 2% 5%;
 }
 
 #cont8-upside {
@@ -360,12 +359,12 @@ body {
   /* background-color: red; */
 }
 #cont8-upside .detials p:nth-child(1) {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   font-weight: bold;
 }
 #cont8-upside .detials p {
-  line-height: 3vw;
-  font-size: 1.1vw;
+  line-height: 2.5vw;
+  font-size: 1vw;
 }
 #container8 hr {
   margin-top: 5vw;
@@ -383,7 +382,7 @@ body {
 }
 #cont8-downside #cont8-left p {
   color: white;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   padding: 1vw;
   font-weight: bold;
 }
@@ -401,7 +400,7 @@ body {
 }
 #cont8-downside #cont8-right p {
   color: white;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   font-weight: bold;
   padding: 1vw;
 }

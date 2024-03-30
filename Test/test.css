@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.test {
+  width: 100%;
+  background-color: #121314;
+  padding: 2% 5%;
+  height: 100vh;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding: 0.7em;
+}
+.btn-switch {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: red;
+  padding: 0.75em;
+}
+.btn-switch div:nth-child(1) {
+  padding: 0.25em 0.5em;
+  border-radius: 25px;
+  background-color: #121314;
+}
+.btn-switch div:nth-child(1) button {
+  padding: 1em;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn-switch div:nth-child(1) button:nth-child(2) {
+  background-color: transparent;
+  color: white;
+}.btn-switch div:nth-child(1) button:nth-child(2):hover {
+
+  color: rgb(170, 45, 227);
+}
+.games {
+  position: relative;
+  /* height: 500px; */
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1vw 0;
+}
+.gs1 {
+  margin: 1.8vw 0;
+  background-color: aqua;
+  width: 220px;
+  height: 300px;
+  /* overflow: hidden; */
+}
+.gs1 img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease .8s;
+filter: brightness(80%);
+}
+.gs1 img:hover {
+  filter: brightness(100%);
+  transform: scale(1.03);
+}
+.gs1 p{
+color: white;
+}
